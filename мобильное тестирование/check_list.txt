@@ -1,0 +1,43 @@
+Install/Uninstall and update testing
+      •uninstall app and check that no data is one of the phone left
+      •perform update test from older version to the latest
+      •use ADB tool
+      •use Apple configurator tool
+Local storage
+      •test App with full local storage
+      •test App with nearly full local storage
+      •test App with empty local storage
+Battery
+      •Test with battery 100 %
+      •Test with battery <=10 % -device will switch off hardware functions like vibration or GPS
+      •note down the battery drain dyring testing
+      •use profiling tools within IDE
+Mobile Networks
+      •LTE
+      •3G
+      •EDGE
+      •GPRS
+      •Wi-Fi
+      •Plane Mode
+      •no sim card installed
+      •go out of the office and test in the wild
+            ►city center
+            ►country side
+            ►while commuting
+            ►location depending on the use case of your App
+Sensors
+      •ambient light sensor  -different light situation
+            ►indoor
+            ►outdoor
+      •proximity sensor  -different surfaces
+            ►glass
+            ►mirror
+            ►face
+            ►hand
+            ►table
+      •acceleration sensor
+            ►change orientationfrom portrait to landscape
+            ►change from landscape to landscape
+            ►run while testing
+      •gyroscope sensor
+            ►
