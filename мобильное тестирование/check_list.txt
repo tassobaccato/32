@@ -193,5 +193,21 @@ Notifications
 Language
       •test app in different languages
       •test app with not supported language
+Screen sizes
+      •test on big screen devices
+      •test on small screen devices
+      •test on retina and HD resolution devices
+      •use devices with small display resolution
+      •don't forget tablets
+      •test on smartwatches
+OS version
+      •test on supported OS version
+      •use device grading to focus on relevant OS  
+           ►ABC
+      •check statistics
+Database
+      •check database change have no impact on existing data
+      •database migration
+      •data consistancy
            
 
