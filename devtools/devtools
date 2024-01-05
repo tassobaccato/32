@@ -3,6 +3,7 @@
  3. Найти инспектором кнопку Submit и выровнять слово Submit по центру
  4. Включить режим мобильного деввайса (Device Mode)
 https://drive.google.com/file/d/16c6bPpjSe6lZHniR3NtX1r-yLMYUxbac/view?usp=sharing
+
  4. Включить режим мобильного деввайса (Device Mode)
  5. Выставить Dimensions: Responsive 
  6. Выбрать Responsive - Mobile
@@ -14,14 +15,18 @@ https://drive.google.com/file/d/16c6bPpjSe6lZHniR3NtX1r-yLMYUxbac/view?usp=shari
  12. Перевести в ландшафтные режим.
  13. Выключить Device Mode
 https://drive.google.com/file/d/1VBizPPnHAxoBuOUjslUH482PyROyEu3a/view?usp=sharing
+
  14. Открыть панель Console.
  15. Найти 2 сообщения Error в логах
  16. Сохранить эти 2 сообщения лога как файл на компьютер.
  17. Найти 1 сообщение verbose
  18. Пролистать логи Warnings, Info, User Messages.
+https://drive.google.com/file/d/1xYrG82r5vWErZZp7zvF1uZBEBzx7lE1T/view?usp=sharing
+
  19. Открыть вкладку Sources.
  20. Открыть файл Index
 https://drive.google.com/file/d/1A-gKzjEaFac8fgQZ0l5rtl1ILtpnFF8N/view?usp=sharing
+
  21. Открыть вкладку Network
  22. В урле отправить отправить http://162.55.220.72:5005/object_info_3?age=32&salary=1000&name=name
  23. Найти лог request/responce  
@@ -30,15 +35,21 @@ https://drive.google.com/file/d/1A-gKzjEaFac8fgQZ0l5rtl1ILtpnFF8N/view?usp=shari
  26. Найти и скопировать в новый текстовый файл header - User-Agent.
  27. Открыть вкладку Preview
  28. Развернуть все уровни вложенности JSON.
+https://drive.google.com/file/d/1cTa6YFBTeBSkQ9wmwR2jnHl1zB4OeD5j/view?usp=sharing
+
  29. Открыть вкладку Application.
  30. Развернуть все Storage в левом столбце.
  31. Зайти в Cache Storage и Application Cache
  32. Там везде будет пусто.
  33. Открыть любой сайт который хотите. (Введите урл сайта в адресную строку и нажмите Enter)
+https://drive.google.com/file/d/1sItOnAJlKuk8v_fkR4fhzVPkiPvdft2a/view?usp=sharing
+
  34. Откройте вкладку LightHouse
  35. Нажмите Generate report
  36. Установить в браузер бесплатный AdBlocker
  37. Установить в браузер Json Viewer
+https://drive.google.com/file/d/1Ki7RTw_HFLzR5FXkmCbuW6P2GxV9FQnT/view?usp=sharing
+
  38. Зайти на сайт https://ksendzov.com (https://ksendzov.com/)
  39. Сделать и сохранить скриншот видимой части страницы сайта.
  40. Сделать и сохранить скриншот всего сайта.
@@ -53,4 +64,4 @@ https://drive.google.com/file/d/1A-gKzjEaFac8fgQZ0l5rtl1ILtpnFF8N/view?usp=shari
  49. Найти интерфейс для изменения/добавления параметров Throttling.
  50. Создать свои параметры плохого соединения и проверить как будет загружаться страница.
  51. Найти интерфейс для изменения/добавления параметров Locations.
- 52. Проверить на Google карте как применяются изменения локации.
+ 52. Проверить на Google карте как применяются изменения локации. https://dzengi.com/
