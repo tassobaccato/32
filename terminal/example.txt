@@ -1,0 +1,144 @@
+1 pwd показывает где находимся в текущий момент на сервере   -> kasila@pc MINGW64 
+
+   cd ..   - переход на уровень выше
+
+2 mkdir group_30_free  создаем папку
+
+3 cd group_30_free  заходим в папку
+
+3 ls -la   проверяем   
+	ответ:
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:43 ./
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:43 ../
+4 clear       очищаем терминал
+5 ls -la
+	ответ:
+	total 12
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:43 ./
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:43 ../
+	.   указывает на текущую папку 
+	..  указывает на предыдущую папку
+6 mkdir qa_1     создаем еще одну папку
+7 ls -la 
+  ls список
+8 ls  показывает последнюю папку
+9 mkdir qa_2
+10  mkdir qa_3 qa_4 qa_5    создаем несколько папок
+11  ls -la   
+	ответ: 
+	total 12
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:59 ./
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:43 ../
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:54 qa_1/
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:59 qa_2/
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:59 qa_3/
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:59 qa_4/
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:59 qa_5/
+12  ls   
+	ответ:
+	qa_1/  qa_2/  qa_3/  qa_4/  qa_5/
+13  ls -l     выводит без скрытых папок
+	ответ:
+	total 0
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:54 qa_1/
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:59 qa_2/
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:59 qa_3/
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:59 qa_4/
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:59 qa_5/
+14  ls -a      
+	ответ:
+	./  ../  qa_1/  qa_2/  qa_3/  qa_4/  qa_5/
+15 touch qq.txt     создаем текстовый файл
+16  ls -la  
+
+	total 16
+	drwxr-xr-x 1 kasila 197121 0 May 20 12:09 ./
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:43 ../
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:54 qa_1/
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:59 qa_2/
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:59 qa_3/
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:59 qa_4/
+	drwxr-xr-x 1 kasila 197121 0 May 20 11:59 qa_5/
+	-rw-r--r-- 1 kasila 197121 0 May 20 12:09 qq.txt
+17 cat qq.txt    прочитаем файл
+18 cat >> qq.txt     заходим в режим редактирования
+19 вводим тест построчно, обязательно кликнуть enter , чтобы сохранить строку
+   просто enter    -   пустая строка
+20  ctrl + c   закрываем режим редактирования
+21  cat qq.txt    прочитаем файл
+
+	param
+	pampam
+
+	123
+	456
+22  open .    не сработала команда
+23 mkdir qa_6 
+24 cat >> qq.text    добавляем в qq.text
+	555
+	666
+	777
+25 ctrl + c
+	param
+	pampam
+
+
+	123
+	456
+	555
+	666
+	777
+
+26 cat > q1.txt    создаем новый файл           создание     cat >  
+						добавление   cat >>
+						чтение       cat
+
+27      orto
+	botanico
+	villa
+	taranto
+	12354
+28  ls -la
+	total 19
+	drwxr-xr-x 1 kasila 197121  0 May 20 13:55 .
+	drwxr-xr-x 1 kasila 197121  0 May 20 11:43 ..
+	-rw-r--r-- 1 kasila 197121  0 May 20 13:42 cat
+	-rw-r--r-- 1 kasila 197121 34 May 20 13:56 q1.text
+	-rw-r--r-- 1 kasila 197121  0 May 20 13:48 q1.txt
+	drwxr-xr-x 1 kasila 197121  0 May 20 11:54 qa_1
+	drwxr-xr-x 1 kasila 197121  0 May 20 11:59 qa_2
+	drwxr-xr-x 1 kasila 197121  0 May 20 11:59 qa_3
+	drwxr-xr-x 1 kasila 197121  0 May 20 11:59 qa_4
+	drwxr-xr-x 1 kasila 197121  0 May 20 11:59 qa_5
+	drwxr-xr-x 1 kasila 197121  0 May 20 13:32 qa_6
+	-rw-r--r-- 1 kasila 197121 35 May 20 13:40 qq.text
+	-rw-r--r-- 1 kasila 197121 22 May 20 12:19 qq.txt
+
+29 cd qa_1/     переходим в папку qa_1 
+30 pwd          проверяем где мы
+31 cd .. 	поднимаемся на уровень выше (../../../../  на несколько уровней выше)
+32 cat > qa_1/q11.txt    создаем файл внутри папки
+	пишем что-нибудь
+33 cat > qa_2/q22.txt
+	пишем что-нибудь
+34  history   
+35  qa_    + tab 
+36  vim q1.txt     vim   -  текстовый редактор в терминале, открылся файл q1.txt
+37  i   - нажать, вошли в режим редактирования  ->  INSERT 	
+	esc   - нажать, вышли из режима редактирования
+38  пишем что-нибудь, чтобы сохранить - выйти из режима редактирования нажать esc, и набрать :wq 
+
+39 :q!   выходим из терминала не сохраняя изменений  
+	 :q   выход из терминала
+
+40  ls -la qa_1/     узнать какие файлы находятся в папке qa_1
+41  mv qa_1/q11.txt qa_3/q11.txt      перемещаем файл q11.txt из qa_1 в qa_3
+42  cp qa_3/q11.txt qa_1/q11.txt      копируем файл
+43  cat qa_3/q11.txt   выводим содержимое файла в терминал
+44  rm q1.txt    удаляем файл
+45  rm -r qa_1   удаляем папку
+46  cd qa_3
+47  mv q11.txt q99.txt    переименовываем файл
+48  cd ..    поднимаемся по дереву
+49  rmdir qa_4     удаляем пустую папку
+50  cd + enter    выходим в корень
